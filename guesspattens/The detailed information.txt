@@ -1,0 +1,7 @@
+This is a set of pictures used to calculate the gamma value：
+	00 - 15： 16-steps phase-shifting algorithm and frequency is 22(gamma_temp = 1)
+	16 - 31： 16-steps phase-shifting algorithm and frequency is 44(gamma_temp = 1)
+	32 - 47： 16-steps phase-shifting algorithm and frequency is 66(gamma_temp = 1)
+
+	48 - 50： 3-steps phase-shifting algorithm and frequency is 64（gamma_temp = 1）
+	51 - 53： 3-steps phase-shifting algorithm and frequency is 64（gamma_temp = 2）

@@ -1,0 +1,6 @@
+This is a set of pictures used to test the result after correction：
+	00 - 02： 3-steps phase-shifting algorithm and frequency is 64(gamma_temp = 1) [ zhang correction ]
+	03 - 05： 3-steps phase-shifting algorithm and frequency is 64(gamma_temp = 1) [ liu correction ]
+	06 - 08： 3-steps phase-shifting algorithm and frequency is 64(gamma_temp = 1) [ our correction ]
+
+	09 - 44： 36-steps phase-shifting algorithm and frequency is 64（gamma_temp = 1） [ without correction ]
