@@ -6,8 +6,8 @@
 
 'ContrastExperiment.m' is the results of real experiment and simulation, which is used to verify the correction result;
 
-'fitpatterns' is the datas of 'FittingPlane.m';
+'fitpatterns' is the data of 'FittingPlane.m';
 
-'guesspattens' is the datas of 'ContrastExperiment.m', which is used to estimate the gamma value;
+'guesspattens' is the data of 'ContrastExperiment.m', which is used to estimate the gamma value;
 
-'finalresults' is the datas of 'ContrastExperiment.m',  which is used to compare the correction results;
+'finalresults' is the data of 'ContrastExperiment.m',  which is used to compare the correction results;
