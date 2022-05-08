@@ -179,7 +179,7 @@ plot(f1(1700:2300),'r-')
 
     ylabel(' Amplitude ');
     xlabel(' Frequency ');
-    set(gca,'XTickLabel',[1800:50:2200]);
+    set(gca,'XTickLabel',[-300:100:300]);
 
 subplot(2,2,2);
 f2=fftshift(abs(fft(ZhangCorrect(2000,:))),2);
@@ -187,7 +187,7 @@ plot(f2(1700:2300),'r-')
 
     ylabel(' Amplitude ');
     xlabel(' Frequency ');
-    set(gca,'XTickLabel',[1800:50:2200]);
+    set(gca,'XTickLabel',[-300:100:300]);
 
 
 subplot(2,2,3);
@@ -196,7 +196,7 @@ plot(f3(1700:2300),'r-')
 
     ylabel(' Amplitude ');
     xlabel(' Frequency ');
-    set(gca,'XTickLabel',[1800:50:2200]);
+    set(gca,'XTickLabel',[-300:100:300]);
 
 subplot(2,2,4);
 f4=fftshift(abs(fft(OurCorrect(2000,:))),2);
@@ -204,7 +204,7 @@ plot(f4(1700:2300),'r-')
 
     ylabel(' Amplitude ');
     xlabel(' Frequency ');
-    set(gca,'XTickLabel',[1800:150:2200]);
+    set(gca,'XTickLabel',[-300:100:300]);
 
 close;
 
@@ -212,25 +212,13 @@ close;
 % saveName = {'NoCorrect','ZhangCorrect','LiuCorrect','OurCorrect'};
 % % save
 % for i = 1 : length(f)
-%     plot(f{i},'r-');
-% %     set(gca,'XLim',[-50 2000]);
+%     plot(f{i}(1700:2300-1),'r-');
+%     set(gca,'XTickLabel',[-300:100:300]);
 %     ylabel(' Amplitude ');
 %     xlabel(' Frequency ');
 %     print(gcf,[savePath,saveName{i}],saveType,saveResolution);
 %     close
 % end
-% 
-% % Detail View
-% for i = 1 : length(f)
-%     plot(f{i}(1700:2300),'r-');
-%     ylabel(' Amplitude ');
-%     xlabel(' Frequency ');
-%     set(gca,'YLim',[-10 20000]);
-%     set(gca,'XTickLabel',[1800:50:2200]);
-%     print(gcf,[savePath,saveName{i},'big'],saveType,saveResolution);
-%     close
-% end
-
 
 
 %% Simulation
