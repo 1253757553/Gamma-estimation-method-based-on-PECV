@@ -10,4 +10,4 @@ $$
 $$
 
 
-Here, in order to obtain a more ideal phase for system calibration, he fitted the quintic surface. Although the fitting operation he used is to remove the influence of other factors on the phase, the operation will involve the whole plane (calibration plate) while we use a small area. And the ideal phase for system calibration, which requires higher accuracy.
+Here, in order to obtain a more ideal phase for system calibration, he fitted the quintic surface. This ideal phase is used for calibration. All calibration plates need to pose in various postures. The operation will cause the plane not perpendicular to the optical axis of the projector, and the phase will be obviously bent, so it is necessary to fit the quintic plane. Although the fitting operation he used is to remove the influence of other factors on the phase, the operation will involve the whole plane (calibration plate) while we use a small area. And the ideal phase for system calibration, which requires higher accuracy.
